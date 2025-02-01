@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr Cook Book 📔🥘</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="assets/cookbook.png">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <h1>Dr Cook Book 📔🥘</h1>
 
+    
     <p> <a href="add-recipe.html">Go to Add Recipe</a> </p>
-
     <button id="export-json">Export Recipes</button>
     <input type="file" id="import-json" accept="application/json">
 
-    <input type="text" id="search" placeholder="Search by title or tag..." onkeyup="searchRecipes()">
+    <input type="text" id="search" placeholder="Search by title or #tag..." onkeyup="searchRecipes()">
     <div id="recipes-container"></div>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

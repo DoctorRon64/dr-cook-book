@@ -1,0 +1,101 @@
+/* General reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff3cd; /* Soft cream background */
+    color: #856404; /* Warm golden brown text */
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+    color: #856404;
+    font-family: 'Georgia', serif;
+}
+
+a {
+    color: #856404;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #3e6c16;
+    text-decoration: underline;
+}
+
+/* Form container styles */
+form {
+    background-color: white;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 1rem;
+    color: #856404;
+}
+
+input[type="text"], textarea, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #856404;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #856404;
+}
+
+input[type="text"]:focus, textarea:focus, input[type="file"]:focus {
+    outline: none;
+    border-color: #3e6c16;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #856404;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #3e6c16;
+}
+
+/* Back to Home link */
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p a {
+    color: #856404;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #3e6c16;
+    text-decoration: underline;
+}
