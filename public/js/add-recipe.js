@@ -4,7 +4,11 @@ document.getElementById("recipe-form").addEventListener("submit", async function
     const title = document.getElementById("title").value.trim();
     const ingredients = document.getElementById("ingredients").value.trim();
     const instructions = document.getElementById("instructions").value.trim();
-    const tags = document.getElementById("tags").value.split(",").map(tag => tag.trim());
+    const tags = document.getElementById("tags").value
+    .split(",")
+    .map(tag => tag.trim())
+    .filter(tag => tag !== "");
+
     const imageInput = document.getElementById("image");
 
     if (!title || !ingredients || !instructions) {
